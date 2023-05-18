@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/sd-construcciones/estilo.css">
+</head>
+
+<body>
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="../img/logo.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Conocenos</p>
+            <h2>A pesar de ser una empresa joven,<span> contamos con gran experiencia y capacidad resolutiva
+                    a la hora de
+                    trabajar. </span> </h2>
+            <p>SD surge en enero del año 2022 con la necesidad de resolver las problemáticas relacionadas a
+                la construcción. Llevando así soluciones a diferentes industrias.</p>
+            <p>Nos caracterizamos por contar con mano de obra calificada de calidad en las áreas
+                solicitadas, pudiendo así garantizar trabajos en tiempos estipulados y con el seguimiento
+                profesional correspondiente. </p>
+            <a href="./servicios.html">SERVICIOS</a>
+        </div>
+    </section>
+     <!-- SECCION FOOTER -->
+     <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+    </footer>
+    
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/SD/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="../index.html" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#Nosotros" onclick="seleccionar(this)">NOSOTROS</a></li>
+                            <li><a href="./servicios.html" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="./portfolio.html" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                            <li><a href="./contacto.html" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!-- menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </section>
+    
+
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
